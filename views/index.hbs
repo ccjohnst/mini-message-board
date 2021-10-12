@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+<a href="/new">New post</a>
+<div>
+	{{#each messages}}
+		<br />
+		<div>{{this.text}}</div>
+		<div>{{this.user}}</div>
+		<div>{{this.added}}</div>
+		<br />
+	{{/each}}
+</div>
